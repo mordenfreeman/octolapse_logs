@@ -1,0 +1,1158 @@
+2020-03-27 05:40:56,793 - octoprint.startup - INFO - ******************************************************************************
+2020-03-27 05:40:56,794 - octoprint.startup - INFO - Starting OctoPrint 1.4.0
+2020-03-27 05:40:56,794 - octoprint.startup - INFO - ******************************************************************************
+2020-03-27 05:40:57,242 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2020-03-27 05:40:57,295 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-03-27 05:40:58,448 - py.warnings - WARNING - /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_telegram/__init__.py:5: ExtDeprecationWarning: Importing flask.ext.babel is deprecated, use flask_babel instead.
+  from flask.ext.babel import gettext
+
+2020-03-27 05:40:58,450 - py.warnings - WARNING - /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_telegram/__init__.py:6: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  from flask.ext.login import current_user
+
+2020-03-27 05:40:58,850 - octoprint.plugin.core - INFO - Found 29 plugin(s) providing 29 mixin implementations, 58 hook handlers
+2020-03-27 05:40:59,185 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-03-27 05:40:59,218 - octoprint.server - INFO - Intermediary server started
+2020-03-27 05:40:59,219 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-03-27 05:40:59,294 - octoprint.plugin.core - INFO - Found 29 plugin(s) providing 29 mixin implementations, 58 hook handlers
+2020-03-27 05:40:59,311 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2020-03-27 05:40:59,619 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2020-03-27 05:40:59,622 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: u"Need(method='role', value=u'plugin_action_command_prompt_interact')")
+2020-03-27 05:40:59,623 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: u"Need(method='role', value=u'plugin_announcements_read')")
+2020-03-27 05:40:59,624 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: u"Need(method='role', value=u'plugin_announcements_manage'), Need(method='role', value=u'plugin_announcements_read')")
+2020-03-27 05:40:59,625 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: u"Need(method='role', value=u'plugin_appkeys_admin')")
+2020-03-27 05:40:59,626 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_ACCESS (needs: u"Need(method='role', value=u'plugin_backup_access')")
+2020-03-27 05:40:59,626 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: u"Need(method='role', value=u'plugin_logging_manage')")
+2020-03-27 05:40:59,627 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: u"Need(method='role', value=u'plugin_pi_support_check')")
+2020-03-27 05:40:59,628 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: u"Need(method='role', value=u'plugin_pluginmanager_manage')")
+2020-03-27 05:40:59,629 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: u"Need(method='role', value=u'plugin_pluginmanager_install'), Need(method='role', value=u'plugin_pluginmanager_manage')")
+2020-03-27 05:40:59,630 - octoprint.server - INFO - Added new permission from plugin printer_safety_check: PLUGIN_PRINTER_SAFETY_CHECK_DISPLAY (needs: u"Need(method='role', value=u'plugin_printer_safety_check_display')")
+2020-03-27 05:40:59,631 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: u"Need(method='role', value=u'plugin_softwareupdate_check')")
+2020-03-27 05:40:59,632 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: u"Need(method='role', value=u'plugin_softwareupdate_update')")
+2020-03-27 05:40:59,643 - octoprint.printer.standard - INFO - Using print time estimator provided by PrintTimeGenius
+2020-03-27 05:40:59,767 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2020-03-27 05:41:00,545 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:01,188 - octoprint.util.pip - INFO - Version of pip is 19.3.1
+2020-03-27 05:41:01,190 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-03-27 05:41:01,191 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-03-27 05:41:01,194 - octoprint.plugin.core - INFO - Initialized 29 plugin implementation(s)
+2020-03-27 05:41:01,207 - octoprint.plugin.core - INFO - 29 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Change Filament Plugin (0.3.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_Change_Filament
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Creality Temperature (1.2.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_CrealityTemperature
+|  CuraEngine Legacy (1.0.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_curalegacy
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FileManager (0.1.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_filemanager
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Login UI (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/loginui
+|  MQTT (0.8.6) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_mqtt
+|  MQTT Publish (0.6.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_mqttpublish
+|  Octolapse (0.3.4) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Slicer (1.4.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_slicer
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Tasmota-MQTT (0.3.5) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_tasmota_mqtt
+|  Telegram Notifications (1.5.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_telegram
+|  Themeify (1.2.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_themeify
+|  TP-Link Smartplug (0.9.19) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_tplinksmartplug
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2020-03-27 05:41:01,524 - octoprint.environment - INFO - Detected environment is Python 2.7.16 under Linux (linux2). Details:
+|  hardware:
+|      cores: 4
+|      freq: 1500.0
+|      ram: 4041732096
+|  os:
+|      id: linux
+|      platform: linux2
+|  plugins:
+|      pi_support:
+|          model: Raspberry Pi 4 Model B Rev 1.2
+|          octopi_version: 0.17.0
+|  python:
+|      pip: 19.3.1
+|      version: 2.7.16
+|      virtualenv: /home/pi/oprint
+2020-03-27 05:41:01,537 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2020-03-27 05:41:01,559 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2020-03-27 05:41:01,595 - octoprint.plugins.octolapse - INFO - Octolapse is loading assets.
+2020-03-27 05:41:02,299 - octoprint.server - INFO - Shutting down intermediary server...
+2020-03-27 05:41:02,728 - octoprint.server - INFO - Intermediary server shut down
+2020-03-27 05:41:02,730 - octoprint.events - INFO - Processing startup event, this is our first event
+2020-03-27 05:41:02,731 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2020-03-27 05:41:02,734 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2020-03-27 05:41:02,754 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2020-03-27 05:41:02,755 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2020-03-27 05:41:02,756 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2020-03-27 05:41:02,765 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _http._tcp
+2020-03-27 05:41:02,773 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _octoprint._tcp
+2020-03-27 05:41:02,869 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2020-03-27 05:41:02,872 - octoprint.plugins.octolapse - INFO - Loading existing settings file from: /home/pi/.octoprint/data/octolapse/settings.json.
+2020-03-27 05:41:02,987 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-03-27 05:41:03,809 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:03,811 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-03-27 05:41:03,812 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-03-27 05:41:03,858 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-03-27 05:41:04,568 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:04,666 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:04,715 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:04,906 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:04,908 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2020-03-27 05:41:06,291 - octoprint.plugins.mqtt - INFO - Connected to mqtt broker
+2020-03-27 05:41:06,679 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 18.72ms
+2020-03-27 05:41:07,627 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.1.235
+2020-03-27 05:41:07,744 - octoprint.server.util.flask - INFO - Passively logging in user sugleris from ::ffff:192.168.1.235
+2020-03-27 05:41:07,745 - octoprint.access.users - INFO - Logged in user: sugleris
+2020-03-27 05:41:07,764 - octoprint.server.util.sockjs - INFO - User sugleris logged in on the socket from client ::ffff:192.168.1.235
+2020-03-27 05:41:08,190 - octoprint.server.api - ERROR - Error calling SimpleApiPlugin telegram
+Traceback (most recent call last):
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/api/__init__.py", line 71, in pluginData
+    response = api_plugin.on_api_get(request)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint_telegram/__init__.py", line 961, in on_api_get
+    'bind_cmd':[k for k, v in self.tcmd.commandDict.iteritems() if 'bind_none' not in v ],
+AttributeError: 'NoneType' object has no attribute 'commandDict'
+2020-03-27 05:41:08,196 - tornado.access - ERROR - 500 GET /api/plugin/telegram?bindings=true (::ffff:192.168.1.235) 10.85ms
+2020-03-27 05:41:08,242 - octoprint.plugins.logging - INFO - Setting logger octoprint level to 10
+2020-03-27 05:41:08,967 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-03-27 05:41:08,967 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-03-27 05:41:09,045 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-03-27 05:41:09,046 - octoprint.plugin - DEBUG - Calling on_after_startup on tracking
+2020-03-27 05:41:09,047 - octoprint.plugin - DEBUG - Calling on_after_startup on PrintTimeGenius
+2020-03-27 05:41:09,047 - octoprint.plugin - DEBUG - Calling on_after_startup on curalegacy
+2020-03-27 05:41:09,048 - octoprint.plugin - DEBUG - Calling on_after_startup on mqtt
+2020-03-27 05:41:09,049 - octoprint.plugin - DEBUG - Calling on_after_startup on mqttpublish
+2020-03-27 05:41:09,050 - octoprint.plugin - DEBUG - Calling on_after_startup on stlviewer
+2020-03-27 05:41:09,050 - octoprint.plugins.stlviewer - INFO - STL Viewer loaded!
+2020-03-27 05:41:09,051 - octoprint.plugin - DEBUG - Calling on_after_startup on tasmota_mqtt
+2020-03-27 05:41:09,054 - octoprint.plugins.tasmota_mqtt - INFO - sonoff/stat/POWER
+2020-03-27 05:41:09,056 - octoprint.plugin - DEBUG - Calling on_after_startup on telegram
+2020-03-27 05:41:09,650 - octoprint.plugin - DEBUG - Calling on_after_startup on themeify
+2020-03-27 05:41:09,651 - octoprint.plugins.themeify - INFO - Themeify initialized.
+2020-03-27 05:41:09,651 - octoprint.plugin - DEBUG - Calling on_after_startup on tplinksmartplug
+2020-03-27 05:41:09,652 - octoprint.plugins.tplinksmartplug - INFO - TPLinkSmartplug loaded!
+2020-03-27 05:41:10,151 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.100.114/'}
+2020-03-27 05:41:10,272 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: unicode
+2020-03-27 05:41:11,473 - octoprint.server.views - DEBUG - Forcing rendering of view _default
+2020-03-27 05:41:11,709 - octoprint.server.util.flask - DEBUG - No cache entry or refreshing cache for / (key: ui:_default:http://192.168.100.114/:en), calling wrapped function
+2020-03-27 05:41:16,689 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 5.28ms
+2020-03-27 05:41:18,883 - octoprint.server.util.flask - DEBUG - Needed 7.17s to render / (key: ui:_default:http://192.168.100.114/:en)
+2020-03-27 05:41:18,893 - octoprint.server.preemptive_cache - INFO - ... done in 8.74s
+2020-03-27 05:41:18,894 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.1.240/'}
+2020-03-27 05:41:18,900 - octoprint.server.views - DEBUG - Forcing rendering of view _default
+2020-03-27 05:41:18,928 - octoprint.server.util.flask - DEBUG - No cache entry or refreshing cache for / (key: ui:_default:http://192.168.1.240/:en), calling wrapped function
+2020-03-27 05:41:20,026 - octoprint.server.util.flask - INFO - Passively logging in user sugleris from ::ffff:192.168.1.235
+2020-03-27 05:41:20,042 - octoprint.access.users - INFO - Logged in user: sugleris
+2020-03-27 05:41:20,056 - octoprint.events.fire - DEBUG - Firing event: UserLoggedIn (Payload: {'username': 'sugleris'})
+2020-03-27 05:41:20,057 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa8493f70>>
+2020-03-27 05:41:20,061 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:20,062 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:20,065 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:20,065 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:20,066 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:20,068 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:20,071 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:20,076 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:20,080 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:20,083 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:20,090 - octoprint.server.util.flask.PreemptiveCache - DEBUG - Updating timestamp and counter for / and {'query_string': u'l10n=en', 'path': u'/', 'base_url': u'http://192.168.1.240/'}
+2020-03-27 05:41:20,092 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:20,094 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:21,082 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.1.235
+2020-03-27 05:41:21,083 - octoprint.events.fire - DEBUG - Firing event: ClientClosed (Payload: {u'remoteAddress': u'::ffff:192.168.1.235'})
+2020-03-27 05:41:21,084 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:21,084 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:21,085 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:21,085 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:21,086 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:21,088 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:21,089 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:21,090 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:21,092 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:21,095 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:21,095 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:21,096 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:21,144 - octoprint.server.util.flask - DEBUG - Needed 2.22s to render / (key: ui:_default:http://192.168.1.240/:en)
+2020-03-27 05:41:21,155 - octoprint.server.preemptive_cache - INFO - ... done in 2.26s
+2020-03-27 05:41:21,443 - tornado.access - WARNING - 404 GET /img/tentacle-20x20.png (::ffff:192.168.1.235) 6.38ms
+2020-03-27 05:41:23,246 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.1.235
+2020-03-27 05:41:23,317 - octoprint.events.fire - DEBUG - Firing event: ClientOpened (Payload: {u'remoteAddress': u'::ffff:192.168.1.235'})
+2020-03-27 05:41:23,317 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:23,318 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:23,319 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:23,320 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:23,320 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:23,321 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:23,322 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:23,323 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:23,326 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:23,335 - octoprint.server.util.flask - INFO - Passively logging in user sugleris from ::ffff:192.168.1.235
+2020-03-27 05:41:23,336 - octoprint.server.util.sockjs - DEBUG - Socket message held back until permissions cleared, added to backlog: plugin
+2020-03-27 05:41:23,336 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:23,337 - octoprint.access.users - INFO - Logged in user: sugleris
+2020-03-27 05:41:23,337 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:23,342 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:23,347 - octoprint.server.util.sockjs - DEBUG - Socket message held back until permissions cleared, added to backlog: plugin
+2020-03-27 05:41:23,349 - octoprint.events.fire - DEBUG - Firing event: UserLoggedIn (Payload: {'username': 'sugleris'})
+2020-03-27 05:41:23,349 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:23,349 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:23,350 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:23,351 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:23,352 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:23,352 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:23,353 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:23,354 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:23,357 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:23,358 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:23,360 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:23,366 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:36,409 - octoprint.plugins.tasmota_mqtt - INFO - checking status of sonoff relay 
+2020-03-27 05:41:36,989 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-03-27 05:41:36,991 - octoprint.events.fire - DEBUG - Firing event: ConnectivityChanged (Payload: {'new': True, 'old': False})
+2020-03-27 05:41:36,996 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:36,997 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:37,007 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:37,014 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:37,016 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:37,020 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:37,023 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:37,056 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-03-27 05:41:37,057 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:37,240 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:37,243 - octoprint.server.util.sockjs - DEBUG - Socket message held back until permissions cleared, added to backlog: plugin
+2020-03-27 05:41:37,292 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:37,339 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:37,450 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:37,804 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-03-27 05:41:39,248 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-03-27 05:41:39,336 - octoprint.server.util.sockjs - DEBUG - Socket message held back until permissions cleared, added to backlog: plugin
+2020-03-27 05:41:39,378 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 5.22ms
+2020-03-27 05:41:39,391 - octoprint.server.util.sockjs - INFO - User sugleris logged in on the socket from client ::ffff:192.168.1.235
+2020-03-27 05:41:39,391 - octoprint.server.util.sockjs - DEBUG - Sending 4 messages on the socket that were held back
+2020-03-27 05:41:39,397 - octoprint.events.fire - DEBUG - Firing event: ClientAuthed (Payload: {'username': 'sugleris', 'remoteAddress': u'::ffff:192.168.1.235'})
+2020-03-27 05:41:39,397 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:39,398 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PowerOn
+2020-03-27 05:41:39,399 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:39,399 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FirmwareData
+2020-03-27 05:41:39,400 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:39,400 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FileDeselected
+2020-03-27 05:41:39,401 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:39,401 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PostRollEnd
+2020-03-27 05:41:39,402 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:39,402 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FolderRemoved
+2020-03-27 05:41:39,403 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:39,404 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PowerOff
+2020-03-27 05:41:39,404 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:39,405 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintDone
+2020-03-27 05:41:39,405 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:39,406 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_printer_safety_check_warning
+2020-03-27 05:41:39,409 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event UpdatedFiles
+2020-03-27 05:41:39,410 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MetadataStatisticsUpdated
+2020-03-27 05:41:39,410 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:39,412 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event UserLoggedIn
+2020-03-27 05:41:39,412 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:39,413 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_softwareupdate_update_failed
+2020-03-27 05:41:39,415 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:39,415 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingCancelled
+2020-03-27 05:41:39,416 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:41:39,416 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Disconnected
+2020-03-27 05:41:39,417 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SettingsUpdated
+2020-03-27 05:41:39,419 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ToolChange
+2020-03-27 05:41:39,419 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MovieRendering
+2020-03-27 05:41:39,420 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_pi_support_throttle_state
+2020-03-27 05:41:39,421 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MetadataAnalysisFinished
+2020-03-27 05:41:39,421 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingFailed
+2020-03-27 05:41:39,422 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event RegisteredMessageReceived
+2020-03-27 05:41:39,423 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintResumed
+2020-03-27 05:41:39,424 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Eject
+2020-03-27 05:41:39,424 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event UserLoggedOut
+2020-03-27 05:41:39,425 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Waiting
+2020-03-27 05:41:39,425 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event CaptureFailed
+2020-03-27 05:41:39,426 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingDone
+2020-03-27 05:41:39,426 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingProfileDeleted
+2020-03-27 05:41:39,427 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ZChange
+2020-03-27 05:41:39,427 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrinterProfileModified
+2020-03-27 05:41:39,428 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintStarted
+2020-03-27 05:41:39,428 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrinterProfileAdded
+2020-03-27 05:41:39,429 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ConnectivityChanged
+2020-03-27 05:41:39,430 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrinterReset
+2020-03-27 05:41:39,431 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintFailed
+2020-03-27 05:41:39,432 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Connected
+2020-03-27 05:41:39,432 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_pluginmanager_enable_plugin
+2020-03-27 05:41:39,433 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PositionUpdate
+2020-03-27 05:41:39,433 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingStarted
+2020-03-27 05:41:39,434 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrinterProfileDeleted
+2020-03-27 05:41:39,435 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event TransferStarted
+2020-03-27 05:41:39,435 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Shutdown
+2020-03-27 05:41:39,436 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingProfileModified
+2020-03-27 05:41:39,436 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrinterStateChanged
+2020-03-27 05:41:39,437 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MovieFailed
+2020-03-27 05:41:39,438 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FileAdded
+2020-03-27 05:41:39,438 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_pluginmanager_install_plugin
+2020-03-27 05:41:39,439 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintPaused
+2020-03-27 05:41:39,440 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FileSelected
+2020-03-27 05:41:39,440 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintCancelled
+2020-03-27 05:41:39,441 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MetadataAnalysisStarted
+2020-03-27 05:41:39,442 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ClientAuthed
+2020-03-27 05:41:39,442 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Disconnecting
+2020-03-27 05:41:39,443 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_pluginmanager_disable_plugin
+2020-03-27 05:41:39,443 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Conveyor
+2020-03-27 05:41:39,444 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Connecting
+2020-03-27 05:41:39,445 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FolderAdded
+2020-03-27 05:41:39,445 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event TransferFailed
+2020-03-27 05:41:39,446 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ClientClosed
+2020-03-27 05:41:39,446 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event EStop
+2020-03-27 05:41:39,447 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event FileRemoved
+2020-03-27 05:41:39,448 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PostRollStart
+2020-03-27 05:41:39,448 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Home
+2020-03-27 05:41:39,449 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_softwareupdate_update_succeeded
+2020-03-27 05:41:39,449 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Cooling
+2020-03-27 05:41:39,449 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Upload
+2020-03-27 05:41:39,450 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event plugin_pluginmanager_uninstall_plugin
+2020-03-27 05:41:39,451 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Error
+2020-03-27 05:41:39,451 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Dwelling
+2020-03-27 05:41:39,452 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event SlicingProfileAdded
+2020-03-27 05:41:39,453 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ClientDeauthed
+2020-03-27 05:41:39,454 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Startup
+2020-03-27 05:41:39,455 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event CaptureStart
+2020-03-27 05:41:39,455 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event ClientOpened
+2020-03-27 05:41:39,456 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event Alert
+2020-03-27 05:41:39,456 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event TransferDone
+2020-03-27 05:41:39,457 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event PrintCancelling
+2020-03-27 05:41:39,458 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event MovieDone
+2020-03-27 05:41:39,458 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>> for event CaptureDone
+2020-03-27 05:41:58,204 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 12.14ms
+2020-03-27 05:41:58,388 - octoprint.server.util.flask - INFO - Passively logging in user sugleris from ::ffff:192.168.1.235
+2020-03-27 05:41:58,389 - octoprint.access.users - INFO - Logged in user: sugleris
+2020-03-27 05:41:58,391 - octoprint.events.fire - DEBUG - Firing event: UserLoggedIn (Payload: {'username': 'sugleris'})
+2020-03-27 05:41:58,391 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:41:58,393 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:41:58,397 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:41:58,398 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:41:58,399 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:41:58,400 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:41:58,401 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:41:58,402 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:41:58,403 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:41:58,406 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:41:58,408 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:41:58,409 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:41:58,410 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:42:08,225 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 12.18ms
+2020-03-27 05:42:18,226 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 11.73ms
+2020-03-27 05:42:28,231 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 14.55ms
+2020-03-27 05:42:38,225 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 11.52ms
+2020-03-27 05:42:48,229 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 12.42ms
+2020-03-27 05:42:58,227 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 11.58ms
+2020-03-27 05:43:08,229 - tornado.access - WARNING - 409 GET /api/printer (::ffff:192.168.1.235) 12.18ms
+2020-03-27 05:43:10,262 - octoprint.events.fire - DEBUG - Firing event: Connecting (Payload: None)
+2020-03-27 05:43:10,264 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:10,269 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:10,280 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:10,285 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:10,313 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:10,316 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:10,330 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:10,335 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:10,339 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:10,341 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Detecting serial port"
+2020-03-27 05:43:10,347 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:10,353 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:10,355 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:10,356 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:10,357 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Detecting serial port', 'state_id': 'DETECT_SERIAL'})
+2020-03-27 05:43:10,358 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:10,362 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:10,363 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:10,364 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:10,365 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:10,366 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:10,368 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:10,370 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:10,371 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:10,374 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:10,382 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:10,383 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:10,385 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:10,474 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting serial port" to "Opening serial port"
+2020-03-27 05:43:10,479 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Opening serial port', 'state_id': 'OPEN_SERIAL'})
+2020-03-27 05:43:10,479 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Detecting baudrate"
+2020-03-27 05:43:10,480 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:10,489 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:10,499 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:10,501 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:10,501 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:10,502 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:10,519 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:10,521 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:10,522 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:10,544 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:10,549 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:10,550 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:10,555 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:10,557 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Detecting baudrate', 'state_id': 'DETECT_BAUDRATE'})
+2020-03-27 05:43:10,558 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:10,561 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:10,562 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:10,563 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:10,564 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:10,565 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:10,566 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:10,567 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:10,568 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:10,572 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:10,575 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:10,576 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:10,576 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:11,504 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-03-27 05:43:11,506 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting baudrate" to "Operational"
+2020-03-27 05:43:11,514 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Operational', 'state_id': 'OPERATIONAL'})
+2020-03-27 05:43:11,517 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:11,523 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-03-27 05:43:11,525 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:11,533 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:11,536 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:11,538 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:11,541 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:11,543 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:11,545 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:11,547 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:11,554 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:11,559 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:11,561 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:11,562 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:11,564 - octoprint.events.fire - DEBUG - Firing event: Connected (Payload: {'baudrate': 0, 'port': u'AUTO'})
+2020-03-27 05:43:11,566 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:11,570 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:11,571 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:11,572 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:11,574 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:11,575 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:11,577 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:11,580 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:11,581 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:11,595 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:11,604 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:11,606 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:11,608 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:18,076 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 1, current line = 3
+| Last lines in terminal:
+| Changing monitoring state from "Opening serial port" to "Detecting baudrate"
+| Trying baudrate: 115200
+| Recv: start
+| Changing monitoring state from "Detecting baudrate" to "Operational"
+| Send: N0 M110 N0*125
+| Recv: echo: External Reset
+| Recv: Marlin 1.1.6.2
+| Send: N0 M110 N0*125
+| Recv: 
+| Recv: echo: Last Updated: 2018-11-28 | Author: (Ender-3 Pro)
+| Recv: echo:Compiled: May 24 2019
+| Recv: echo: Free Memory: 10078  PlannerBufferBytes: 1232
+| Recv: echo:TF init fail
+| Recv: echo:TF init fail
+| Recv: ok
+| Send: N1 M115*39
+| Recv: ok
+| Send: N2 M21*18
+| Recv: Error:Line Number is not Last Line Number+1, Last Line: 0
+| Recv: Resend: 1
+2020-03-27 05:43:18,093 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin Creality 3D"
+2020-03-27 05:43:18,094 - octoprint.events.fire - DEBUG - Firing event: FirmwareData (Payload: {'data': {u'SOURCE_CODE_URL': u'https://github.com/MarlinFirmware/Marlin', u'EXTRUDER_COUNT': u'1', u'UUID': u'cede2a2f-41a2-4748-9b12-c55c62f367ff', u'FIRMWARE_NAME': u'Marlin Creality 3D', u'MACHINE_TYPE': u'Ender-3 Pro', u'PROTOCOL_VERSION': u'1.0'}, 'name': u'Marlin Creality 3D'})
+2020-03-27 05:43:18,098 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:18,099 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2020-03-27 05:43:18,103 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:18,107 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:18,111 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:18,115 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:18,118 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:18,122 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:18,128 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:18,131 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:18,141 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:18,144 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:18,147 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:18,152 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2020-03-27 05:43:18,153 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:18,156 - octoprint.events.fire - DEBUG - Firing event: FirmwareData (Payload: {'data': {u'SOURCE_CODE_URL': u'https://github.com/MarlinFirmware/Marlin', u'EXTRUDER_COUNT': u'1', u'UUID': u'cede2a2f-41a2-4748-9b12-c55c62f367ff', u'FIRMWARE_NAME': u'Marlin Creality 3D', u'MACHINE_TYPE': u'Ender-3 Pro', u'PROTOCOL_VERSION': u'1.0'}, 'name': u'Marlin Creality 3D'})
+2020-03-27 05:43:18,160 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:18,165 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:18,170 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:18,173 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:18,178 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:18,185 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:18,187 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:18,188 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:18,189 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:18,192 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:18,193 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:18,194 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:18,194 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:49,140 - octoprint.filemanager.analysis - DEBUG - Adding entry local:CE3_meshnado3.gcode to analysis queue with high priority
+2020-03-27 05:43:49,143 - octoprint.events.fire - DEBUG - Firing event: FileAdded (Payload: {'path': u'CE3_meshnado3.gcode', 'storage': u'local', 'name': u'CE3_meshnado3.gcode', 'type': ['machinecode', 'gcode']})
+2020-03-27 05:43:49,144 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:49,144 - octoprint.filemanager.analysis - DEBUG - Processing entry local:CE3_meshnado3.gcode from queue (priority 50)
+2020-03-27 05:43:49,145 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:49,146 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CE3_meshnado3.gcode
+2020-03-27 05:43:49,147 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:49,148 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:49,150 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:49,152 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:49,173 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:49,206 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:49,211 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:49,248 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:49,251 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:49,251 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:49,252 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:49,253 - octoprint.events.fire - DEBUG - Firing event: UpdatedFiles (Payload: {'type': u'printables'})
+2020-03-27 05:43:49,253 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:49,256 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:49,257 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:49,257 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:49,258 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:49,259 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:49,260 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:49,261 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:49,262 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:49,265 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:49,266 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:49,268 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:49,269 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:49,270 - octoprint.events.fire - DEBUG - Firing event: MetadataAnalysisStarted (Payload: {u'origin': u'local', u'path': u'CE3_meshnado3.gcode', u'type': 'gcode', u'name': u'CE3_meshnado3.gcode'})
+2020-03-27 05:43:49,271 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:49,273 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:49,273 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:49,274 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:49,275 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:49,276 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:49,277 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:49,277 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:49,278 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:49,282 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:49,283 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:49,285 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:49,288 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:49,291 - octoprint.events.fire - DEBUG - Firing event: Upload (Payload: {u'path': u'CE3_meshnado3.gcode', u'name': u'CE3_meshnado3.gcode', u'target': u'local'})
+2020-03-27 05:43:49,292 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:49,293 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:49,294 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:49,295 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:49,295 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:49,296 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:49,296 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:49,297 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:49,298 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:49,300 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:49,302 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:49,302 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:49,303 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:49,482 - octoprint.events.fire - DEBUG - Firing event: MetadataAnalysisFinished (Payload: {u'origin': u'local', u'path': u'CE3_meshnado3.gcode', u'name': u'CE3_meshnado3.gcode', u'result': {'analysisPending': True}})
+2020-03-27 05:43:49,483 - octoprint.events - DEBUG - Sending action to <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0xb2982fd0>>
+2020-03-27 05:43:49,485 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:49,488 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:49,489 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:49,490 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:49,491 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:49,492 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:49,502 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:49,506 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:49,510 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:49,515 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:49,517 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:49,520 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:49,520 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:51,102 - octoprint.events.fire - DEBUG - Firing event: MetadataAnalysisFinished (Payload: {u'origin': u'local', u'path': u'CE3_meshnado3.gcode', u'name': u'CE3_meshnado3.gcode', u'result': {u'printingArea': {u'maxZ': 41.20000076293945, u'maxX': 45.731998443603516, u'maxY': 200.0, u'minX': 0.10000000149011612, u'minY': 20.0, u'minZ': 0.20000000298023224}, u'dimensions': {u'width': 45.6319984421134, u'depth': 180.0, u'height': 41.00000075995922}, 'analysisPending': True, u'firstFilament': 0.00033022598274968, u'progress': [[0, 2052.0493590151036], [0.00024140658049287, 2046.6240561332727], [0.00033022598274968, 2039.0272722445923], [0.0257895105424645, 1979.0141801181358], [0.05382171099191345, 1918.988258977819], [0.08015951053677095, 1858.976375201674], [0.10433489924976073, 1798.9152895995728], [0.12815159422286723, 1738.8611404561739], [0.15203091826166765, 1678.8041429029372], [0.17609699078726443, 1618.7663234899285], [0.20235109512614918, 1558.708687741259], [0.23094752652198594, 1498.705037849571], [0.26154467188917163, 1438.6989128715534], [0.29246179484653884, 1378.6667342331175], [0.3249030815208387, 1318.617580119824], [0.357036347062953, 1258.6144643772504], [0.3887420268929208, 1198.6027252531344], [0.4210136457347044, 1138.601629743715], [0.4536257389518058, 1078.5680270466535], [0.4846612877788488, 1018.5616627997006], [0.5153751509502822, 958.5183807899048], [0.5463287126367805, 898.4855334050135], [0.5760701172245303, 838.4074535733259], [0.6048162890228898, 778.3574412777671], [0.6336546963543621, 718.3265048998094], [0.6628740022762819, 658.2802833859373], [0.6920141678333702, 598.2078382803502], [0.720499574976386, 538.1777858413698], [0.7495412420937921, 478.14905620046557], [0.7783409332755628, 418.07571044970905], [0.8096349693373788, 358.0657540491047], [0.8435651197097656, 297.97978647177183], [0.8799235697656478, 237.96437449358882], [0.9145802173000838, 177.90602548947868], [0.9476119252573343, 117.89858283731428], [0.9785028578781386, 57.89178435342774], [0.998984839780616, 6.228179401770376], [0.9991288866317121, 0.0], [1, 0]], u'estimatedPrintTime': 2052.0493590151036, u'lastFilament': 0.998984839780616, u'filament': {u'tool0': {u'volume': 9.868905665844789, u'length': 1396.1645507793874}}}})
+2020-03-27 05:43:51,103 - octoprint.events - DEBUG - Sending action to <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0xb2982fd0>>
+2020-03-27 05:43:51,109 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:51,114 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:51,116 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:51,118 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:51,129 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:51,131 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:51,144 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:51,153 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:51,156 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:51,162 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:51,170 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:51,173 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CE3_meshnado3.gcode finished, needed 2.03s
+2020-03-27 05:43:51,173 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:51,178 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:51,277 - octoprint.events.fire - DEBUG - Firing event: MetadataAnalysisFinished (Payload: {u'origin': u'local', u'path': u'CE3_meshnado3.gcode', u'name': u'CE3_meshnado3.gcode', u'result': {'analysisFirstFilamentPrintTime': 13.02208677051135, u'printingArea': {u'maxZ': 41.20000076293945, u'maxX': 45.731998443603516, u'maxY': 200.0, u'minX': 0.10000000149011612, u'minY': 20.0, u'minZ': 0.20000000298023224}, u'dimensions': {u'width': 45.6319984421134, u'depth': 180.0, u'height': 41.00000075995922}, 'compensatedPrintTime': 3314.4189551113354, 'analysisPending': False, 'analysisPrintTime': 2052.0493590151036, 'analysisLastFilamentPrintTime': 2045.8211796133332, u'firstFilament': 0.00033022598274968, u'progress': [[0, 3314.4189551113354], [0.00033022598274968, 2957.8487488145374], [0.0257895105424645, 2872.0939603630263], [0.05382171099191345, 2786.320840088731], [0.08015951053677095, 2700.567778290883], [0.10433489924976073, 2614.7444102977233], [0.12815159422286723, 2528.930954050943], [0.15203091826166765, 2443.11342761257], [0.17609699078726443, 2357.3233054838206], [0.20235109512614918, 2271.504867105862], [0.23094752652198594, 2185.7635709910464], [0.26154467188917163, 2100.018738139544], [0.29246179484653884, 2014.2366763091911], [0.3249030815208387, 1928.4303576341445], [0.357036347062953, 1842.6898247835213], [0.3887420268929208, 1756.9369696839738], [0.4210136457347044, 1671.1993236145613], [0.4536257389518058, 1585.415226897455], [0.4846612877788488, 1499.6700521462737], [0.5153751509502822, 1413.8721243235457], [0.5463287126367805, 1328.0891068981919], [0.5760701172245303, 1242.2414552610564], [0.6048162890228898, 1156.4339102996112], [0.6336546963543621, 1070.653623578334], [0.6628740022762819, 984.8514953962962], [0.6920141678333702, 899.0118954146847], [0.720499574976386, 813.2328717844649], [0.7495412420937921, 727.4557383462878], [0.7783409332755628, 641.6148514015615], [0.8096349693373788, 555.8645436974605], [0.8435651197097656, 470.00562098704415], [0.8799235697656478, 384.2475176189543], [0.9145802173000838, 298.4280600455628], [0.9476119252573343, 212.68134432377835], [0.9785028578781386, 126.93554907638438], [0.998984839780616, 53.11163238940062], [1, 0]], u'estimatedPrintTime': 3314.4189551113354, u'lastFilament': 0.998984839780616, u'filament': {u'tool0': {u'volume': 9.868905665844789, u'length': 1396.1645507793874}}}})
+2020-03-27 05:43:51,278 - octoprint.events - DEBUG - Sending action to <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0xb2982fd0>>
+2020-03-27 05:43:51,280 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:51,288 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:51,290 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:51,292 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:51,294 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:51,299 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:51,301 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:51,307 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:51,310 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:51,322 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:51,325 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:51,331 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:51,333 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:52,365 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CE3_meshnado3.gcode, owner: sugleris, user: sugleris
+2020-03-27 05:43:52,366 - octoprint.events.fire - DEBUG - Firing event: FileSelected (Payload: {'origin': u'local', 'name': u'CE3_meshnado3.gcode', u'user': 'sugleris', u'owner': 'sugleris', 'path': u'CE3_meshnado3.gcode', 'size': None})
+2020-03-27 05:43:52,367 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:52,369 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:52,369 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:52,371 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:52,372 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:52,373 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:52,374 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:52,380 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:52,382 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:52,387 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:52,389 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:52,390 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:52,391 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:52,392 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-03-27 05:43:52,395 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Starting', 'state_id': 'STARTING'})
+2020-03-27 05:43:52,396 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CE3_meshnado3.gcode, owner: sugleris, user: sugleris
+2020-03-27 05:43:52,396 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:52,399 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:52,400 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:52,401 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:52,402 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:52,405 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:52,407 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:52,409 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:52,414 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:52,421 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:52,424 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:52,424 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:52,425 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:52,425 - octoprint.events.fire - DEBUG - Firing event: PrintStarted (Payload: {'origin': u'local', 'name': u'CE3_meshnado3.gcode', u'user': 'sugleris', u'owner': 'sugleris', 'path': u'CE3_meshnado3.gcode', 'size': 1756373L})
+2020-03-27 05:43:52,426 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:52,428 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:52,429 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:52,430 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:52,432 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:52,433 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:52,437 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:52,439 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:52,441 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:52,444 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-03-27 05:43:52,450 - octoprint.filemanager.analysis - DEBUG - Pausing analysis
+2020-03-27 05:43:52,459 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:52,460 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-03-27 05:43:52,461 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:52,464 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:52,508 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:52,510 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': u'Printing', 'state_id': 'PRINTING'})
+2020-03-27 05:43:52,513 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:43:52,515 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:43:52,516 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:43:52,516 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:43:52,517 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:43:52,518 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:43:52,519 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:43:52,520 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:43:52,520 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:43:52,523 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:43:52,526 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:43:52,527 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:43:52,528 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:43:54,505 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2020-03-27 05:44:12,268 - octoprint.events.fire - DEBUG - Firing event: SettingsUpdated (Payload: {'effective_hash': '7515faaaf91492afa838a762ce0b4b4b', 'config_hash': 'e529dcb82fd86d98f4c0a51378d71311'})
+2020-03-27 05:44:12,268 - octoprint.events - DEBUG - Sending action to <function on_settings_update at 0xb295ee70>
+2020-03-27 05:44:12,271 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:44:12,272 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:44:12,273 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:44:12,274 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:44:12,274 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:44:12,275 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:44:12,276 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:44:12,277 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:44:12,278 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:44:12,281 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:44:12,282 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:44:12,283 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:44:12,283 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:44:58,728 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2020-03-27 05:47:03,765 - octoprint.events.fire - DEBUG - Firing event: Home (Payload: None)
+2020-03-27 05:47:03,766 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:03,773 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:03,774 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:03,780 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:03,783 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:03,788 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:03,794 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:03,799 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:03,805 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:03,819 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:03,827 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:03,830 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:03,834 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:03,836 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': None, u'y': 0.0, u'x': 0.0, u'z': 0.0})
+2020-03-27 05:47:03,837 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:03,841 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:03,842 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:03,844 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:03,846 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:03,847 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:03,849 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:03,851 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:03,852 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:03,859 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:03,862 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:03,864 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:03,866 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:20,326 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': None, u'y': 0.0, u'x': 0.0, u'z': 0.0})
+2020-03-27 05:47:20,328 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:20,340 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:20,341 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:20,344 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:20,348 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:20,350 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:20,351 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:20,354 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:20,359 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:20,370 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:20,373 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:20,373 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:20,375 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:20,383 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': None, u'y': 0.0, u'x': 0.0, u'z': 0.0})
+2020-03-27 05:47:20,384 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:20,389 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:20,400 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:20,410 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:20,417 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:20,421 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:20,429 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:20,435 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:20,438 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:20,447 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:20,454 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:20,461 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:20,465 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:20,467 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 2.0, u'old': None})
+2020-03-27 05:47:20,473 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:20,479 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:20,480 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:20,484 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:20,495 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:20,503 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:20,504 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:20,509 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:20,513 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:20,521 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:20,528 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:20,531 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:20,544 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:20,551 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.3, u'old': 2.0})
+2020-03-27 05:47:20,553 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:20,563 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:20,573 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:20,584 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:20,584 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:20,587 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:20,590 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:20,593 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:20,595 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:20,604 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:20,608 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:20,609 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:20,612 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:28,354 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 15.0, u't': 0, u'f': 1500.0, u'y': 200.0, u'x': 0.1, u'z': 0.3})
+2020-03-27 05:47:28,358 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:28,363 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:28,364 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:28,370 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:28,379 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:28,381 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:28,386 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:28,390 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:28,393 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:28,403 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:28,420 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:28,423 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:28,428 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:29,520 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 13.8, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 0.3})
+2020-03-27 05:47:29,523 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:29,528 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:29,531 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:29,533 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:29,535 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:29,536 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:29,538 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:29,540 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:29,542 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:29,549 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:29,551 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:29,553 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:29,554 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,687 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 13.8, u't': 0, u'f': 9000.0, u'y': 200.0, u'x': 0.4, u'z': 0.3})
+2020-03-27 05:47:34,690 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:34,696 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:34,699 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:34,700 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:34,703 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:34,704 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:34,706 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:34,708 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:34,710 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:34,724 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:34,732 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:34,738 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:34,744 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,816 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': 1500.0, u'y': 20.0, u'x': 0.4, u'z': 0.3})
+2020-03-27 05:47:34,817 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:34,822 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:34,824 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:34,826 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:34,827 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:34,829 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:34,830 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:34,843 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:34,845 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:34,850 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:34,853 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:34,858 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:34,860 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,861 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 2.0, u'old': 0.3})
+2020-03-27 05:47:34,862 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:34,866 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:34,869 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:34,874 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:34,879 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:34,880 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:34,881 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:34,883 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:34,885 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:34,892 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:34,894 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:34,896 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:34,899 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,901 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.3, u'old': 2.0})
+2020-03-27 05:47:34,903 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:34,910 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:34,911 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:34,916 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:34,917 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:34,919 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:34,921 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:34,922 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:34,925 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:34,932 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:34,936 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:34,939 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:34,944 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,946 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': 5000.0, u'y': 20.0, u'x': 5.0, u'z': 0.3})
+2020-03-27 05:47:34,947 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:34,955 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:34,958 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:34,959 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:34,960 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:34,961 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:34,962 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:34,964 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:34,967 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:34,974 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:34,977 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:34,985 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:34,986 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:34,988 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 0.0, u't': 0, u'f': 5000.0, u'y': 20.0, u'x': 5.0, u'z': 0.3})
+2020-03-27 05:47:34,991 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:35,001 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:35,003 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:35,004 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:35,007 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:35,011 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:35,013 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:35,015 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:35,016 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:35,019 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:35,021 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:35,025 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:35,027 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:35,030 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.2, u'old': 0.3})
+2020-03-27 05:47:35,030 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:35,036 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:35,038 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:35,040 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:35,042 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:35,043 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:35,047 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:35,050 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:35,051 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:35,055 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:35,056 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:35,057 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:35,070 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:52,762 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.4, u'old': 0.2})
+2020-03-27 05:47:52,763 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:52,765 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:52,765 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:52,768 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:52,768 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:52,769 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:52,769 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:52,770 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:52,771 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:52,775 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:52,776 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:52,778 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:52,781 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:53,443 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 5.37, u't': 0, u'f': 600.0, u'y': 43.97, u'x': 29.85, u'z': 0.4})
+2020-03-27 05:47:53,445 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:53,450 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:53,451 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:53,453 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:53,455 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:53,457 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:53,458 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:53,461 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:53,462 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:53,469 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:53,473 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:53,479 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:53,481 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:55,142 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 4.17, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 0.4})
+2020-03-27 05:47:55,143 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:55,149 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:55,154 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:55,157 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:55,158 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:55,161 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:55,166 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:55,170 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:55,173 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:55,183 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:55,186 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:55,212 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:55,215 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:47:57,211 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 4.17, u't': 0, u'f': 9000.0, u'y': 43.97, u'x': 29.85, u'z': 0.4})
+2020-03-27 05:47:57,217 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:47:57,225 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:47:57,230 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:47:57,234 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:47:57,237 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:47:57,247 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:47:57,259 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:47:57,265 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:47:57,270 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:47:57,285 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:47:57,293 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:47:57,297 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:47:57,304 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:03,341 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.6, u'old': 0.4})
+2020-03-27 05:48:03,344 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:03,350 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:03,351 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:03,358 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:03,361 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:03,364 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:03,366 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:03,370 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:03,372 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:03,379 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:03,382 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:03,383 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:03,391 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:04,093 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 7.94, u't': 0, u'f': 600.0, u'y': 43.96, u'x': 29.82, u'z': 0.6})
+2020-03-27 05:48:04,094 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:04,095 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:04,098 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:04,099 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:04,100 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:04,101 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:04,102 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:04,103 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:04,103 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:04,106 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:04,107 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:04,108 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:04,109 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:05,787 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 6.74, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 0.6})
+2020-03-27 05:48:05,788 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:05,792 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:05,793 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:05,795 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:05,796 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:05,797 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:05,798 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:05,800 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:05,801 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:05,807 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:05,810 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:05,810 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:05,811 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:08,098 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 6.74, u't': 0, u'f': 9000.0, u'y': 43.96, u'x': 29.82, u'z': 0.6})
+2020-03-27 05:48:08,100 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:08,104 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:08,107 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:08,109 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:08,111 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:08,112 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:08,114 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:08,117 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:08,119 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:08,126 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:08,130 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:08,134 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:08,136 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:14,284 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 0.8, u'old': 0.6})
+2020-03-27 05:48:14,285 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:14,286 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:14,287 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:14,288 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:14,289 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:14,290 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:14,292 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:14,295 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:14,297 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:14,302 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:14,305 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:14,305 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:14,312 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:15,111 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 10.55, u't': 0, u'f': 600.0, u'y': 43.97, u'x': 29.79, u'z': 0.8})
+2020-03-27 05:48:15,113 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:15,119 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:15,121 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:15,123 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:15,125 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:15,126 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:15,128 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:15,130 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:15,132 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:15,139 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:15,141 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:15,144 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:15,145 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:16,805 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 9.35, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 0.8})
+2020-03-27 05:48:16,809 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:16,814 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:16,817 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:16,819 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:16,820 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:16,822 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:16,823 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:16,826 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:16,827 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:16,834 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:16,835 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:16,840 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:16,844 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:22,485 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 9.35, u't': 0, u'f': 9000.0, u'y': 43.97, u'x': 29.79, u'z': 0.8})
+2020-03-27 05:48:22,490 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:22,496 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:22,499 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:22,503 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:22,510 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:22,515 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:22,524 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:22,530 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:22,536 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:22,552 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:22,558 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:22,562 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:22,568 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:28,960 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 1.0, u'old': 0.8})
+2020-03-27 05:48:28,962 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:28,966 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:28,968 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:28,970 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:28,972 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:28,974 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:28,976 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:28,979 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:28,980 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:28,990 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:28,994 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:28,997 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:29,006 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:29,641 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 13.13, u't': 0, u'f': 600.0, u'y': 44.09, u'x': 29.97, u'z': 1.0})
+2020-03-27 05:48:29,641 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:29,645 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:29,646 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:29,649 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:29,654 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:29,657 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:29,659 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:29,661 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:29,663 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:29,670 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:29,673 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:29,674 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:29,676 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:31,359 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 11.93, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 1.0})
+2020-03-27 05:48:31,362 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:31,366 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:31,369 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:31,372 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:31,374 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:31,376 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:31,379 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:31,382 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:31,383 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:31,390 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:31,393 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:31,396 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:31,401 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:37,017 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 11.93, u't': 0, u'f': 9000.0, u'y': 44.09, u'x': 29.97, u'z': 1.0})
+2020-03-27 05:48:37,020 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:37,024 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:37,028 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:37,030 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:37,034 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:37,036 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:37,038 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:37,040 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:37,043 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:37,056 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:37,062 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:37,069 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:37,074 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:42,004 - octoprint.events.fire - DEBUG - Firing event: ZChange (Payload: {u'new': 1.2, u'old': 1.0})
+2020-03-27 05:48:42,005 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:42,016 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:42,019 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:42,021 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:42,027 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:42,028 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:42,034 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:42,042 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:42,046 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:42,056 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:42,064 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:42,070 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:42,081 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:42,757 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 15.39, u't': 0, u'f': 600.0, u'y': 43.95, u'x': 29.76, u'z': 1.2})
+2020-03-27 05:48:42,758 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:42,760 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:42,762 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:42,763 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:42,763 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:42,764 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:42,764 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:42,765 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:42,766 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:42,769 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:42,770 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:42,771 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:42,772 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
+2020-03-27 05:48:44,450 - octoprint.events.fire - DEBUG - Firing event: PositionUpdate (Payload: {'reason': None, u'e': 14.19, u't': 0, u'f': 9000.0, u'y': 217.8, u'x': 110.0, u'z': 1.2})
+2020-03-27 05:48:44,454 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0xa88c65b0>>
+2020-03-27 05:48:44,460 - octoprint.plugin - DEBUG - Calling on_event on action_command_prompt
+2020-03-27 05:48:44,462 - octoprint.plugin - DEBUG - Calling on_event on announcements
+2020-03-27 05:48:44,464 - octoprint.plugin - DEBUG - Calling on_event on pluginmanager
+2020-03-27 05:48:44,466 - octoprint.plugin - DEBUG - Calling on_event on printer_safety_check
+2020-03-27 05:48:44,467 - octoprint.plugin - DEBUG - Calling on_event on softwareupdate
+2020-03-27 05:48:44,469 - octoprint.plugin - DEBUG - Calling on_event on tracking
+2020-03-27 05:48:44,472 - octoprint.plugin - DEBUG - Calling on_event on PrintTimeGenius
+2020-03-27 05:48:44,473 - octoprint.plugin - DEBUG - Calling on_event on mqtt
+2020-03-27 05:48:44,483 - octoprint.plugin - DEBUG - Calling on_event on octolapse
+2020-03-27 05:48:44,496 - octoprint.plugin - DEBUG - Calling on_event on tasmota_mqtt
+2020-03-27 05:48:44,498 - octoprint.plugin - DEBUG - Calling on_event on telegram
+2020-03-27 05:48:44,502 - octoprint.plugin - DEBUG - Calling on_event on tplinksmartplug
